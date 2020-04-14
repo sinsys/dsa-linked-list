@@ -2,8 +2,8 @@ const LinkedList = require('./LinkedList');
 
 let list = new LinkedList;
 
-list.insertFirst('one');
-list.insertFirst('two');
-list.insertFirst('three')
+list.insertLast('one');
+list.insertLast('two');
+list.insertLast('three')
 
 console.log(JSON.stringify(list));
