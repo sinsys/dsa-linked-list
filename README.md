@@ -6,6 +6,8 @@ In these drills, you'll practice creating a linked list, implementing its core, 
 
 ### 1. Create a linked list class  
 
+  > `./drills/linked-list-class.js`  
+
 Walk through the linked list code in the curriculum and understand it well. Then write a linked list class and its core functions (insertFirst, insertLast, remove, find) from scratch.
 
 ### 2. Creating a singly linked list  
