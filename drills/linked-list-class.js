@@ -89,7 +89,7 @@ class LinkedList {
     };
 
     prevNode.next = currNode.next;
-  }
+  };
 
   // Added from "2. Creating a singly linked list"
   //   - Implement a function called insertBefore() in the class that inserts a new node before a given node containing a key.
@@ -173,7 +173,7 @@ class LinkedList {
         prevNode = currNode;
         currNode = currNode.next;
       }
-    }
+    };
     // Set the prior Node's next equal to our new item and the current item as its next
     prevNode.next = new _Node(item, currNode);
 

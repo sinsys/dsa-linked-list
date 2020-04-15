@@ -127,16 +127,19 @@ const main = () => {
 }
 
 // This is just to print off our list in the console
-const printLinkedList = (linkedList) => {
+// const printLinkedList = (linkedList) => {
 
-  if ( linkedList.next === null ) {
-    return linkedList.val;
-  }
+//   if ( linkedList.next === null ) {
+//     return linkedList.val;
+//   }
 
-  console.log(linkedList.val);
-  printLinkedList(linkedList.next);
+//   console.log(linkedList.val);
+//   printLinkedList(linkedList.next);
 
-}
+// }
 
-let ourLinkedList = main();
-printLinkedList(ourLinkedList.head);
+// let ourLinkedList = main();
+// printLinkedList(ourLinkedList.head);
+
+// Exported existing linked list for drill 3. Supplemental functions
+module.exports = { main };
