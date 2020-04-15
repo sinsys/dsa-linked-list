@@ -79,6 +79,8 @@ Write an algorithm to find the 3rd element from the end of a linked list. Note Y
 
 ### 7. Middle of a list  
 
+  > `./drills/middle.js`  
+
 Write an algorithm to find the middle element of a linked list. Note You may be tempted to add a length property to your linked list class. The length property is not a typical property of linked list, therefore don't make any modification to the linked list class that is provided to you. Also, finding the size of the linked list using the size() function and dividing it by half will not find the correct middle of the linked list. So, don't use either of these approaches.
 
 ### 8. Cycle in a list  
