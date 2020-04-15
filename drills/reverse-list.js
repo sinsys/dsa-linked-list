@@ -47,3 +47,27 @@ console.log("Before Reverse:\n");
 console.log(SSL);
 console.log("\nAfter Reverse:\n");
 console.log(reverseList(SSL));
+
+// O(n) time & O(n) space
+const recurseReverse = (linkList, original) => {
+  original = original || linkList;
+  let head;
+  linkList.head
+    ? head = linkList.head
+    : head = linkList;
+
+  if (!head || !head.next) {
+    original.head = head;
+    return original;
+  }
+  let tmp = recurseReverse(head.next, original);
+  head.next.next = head;
+  head.next = undefined;
+  return tmp;
+};
+
+// Demonstration for PoC
+console.log("Before Reverse:\n");
+console.log(SSL);
+console.log("\nAfter Reverse:\n");
+console.log(recurseReverse(SSL));
