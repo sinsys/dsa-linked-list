@@ -40,6 +40,8 @@ Implement the following functions that operate on your linked list class. Note t
 
 ### 4. Mystery program  
 
+  > `./drills/supplemental-functions.js`  
+  
 Analyze the following function (without running it in an IDE) to determine what problem it is trying to solve. What is the time complexity of this algorithm?
 
 ```javascript
@@ -59,6 +61,9 @@ function WhatDoesThisProgramDo(lst) {
     }
 }
 ```
+  > The function takes a linked list and removes paired duplicates from it.  
+
+  > The time complexity is **O(n)** as it only passes through `lst` once.  
 
 ### 5. Reverse a list  
 
