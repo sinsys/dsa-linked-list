@@ -12,6 +12,8 @@ Walk through the linked list code in the curriculum and understand it well. Then
 
 ### 2. Creating a singly linked list  
 
+  > `./drills/single-linked-list.js`  
+  
 Write a function main. Within the function, using the linked list class above, create a linked list with the name SLL and add the following items to your linked list: 
   - Apollo, Boomer, Helo, Husker, Starbuck.
   - Add Tauhida to the list.
