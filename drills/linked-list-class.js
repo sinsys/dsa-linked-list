@@ -121,7 +121,7 @@ class LinkedList {
     prevNode.next = new _Node(item, currNode);
   };
 
-  insertAfter = function(item, target) {
+  insertAfter(item, target) {
     // If our head is null, the linked list is empty
     if ( !this.head ) {
       return null;
@@ -145,7 +145,7 @@ class LinkedList {
     currNode.next = new _Node(item, currNode.next);
   };
 
-  insertAt = function(item, index) {
+  insertAt(item, index) {
     // If our head is null, the linked list is empty
     if ( !this.head ) {
       return null;
